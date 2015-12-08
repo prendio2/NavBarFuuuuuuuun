@@ -15,6 +15,7 @@
 		932E93291C1669A300F13CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932E93271C1669A300F13CAA /* LaunchScreen.storyboard */; };
 		932E93341C1669A300F13CAA /* NavBarFuuuuuuuunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932E93331C1669A300F13CAA /* NavBarFuuuuuuuunTests.m */; };
 		932E933F1C1669A300F13CAA /* NavBarFuuuuuuuunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932E933E1C1669A300F13CAA /* NavBarFuuuuuuuunUITests.m */; };
+		932E934E1C1693B100F13CAA /* SUPTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932E934D1C1693B100F13CAA /* SUPTransitionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		932E933A1C1669A300F13CAA /* NavBarFuuuuuuuunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavBarFuuuuuuuunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		932E933E1C1669A300F13CAA /* NavBarFuuuuuuuunUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavBarFuuuuuuuunUITests.m; sourceTree = "<group>"; };
 		932E93401C1669A300F13CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932E934C1C1693B100F13CAA /* SUPTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUPTransitionController.h; sourceTree = "<group>"; };
+		932E934D1C1693B100F13CAA /* SUPTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUPTransitionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				932E931D1C1669A300F13CAA /* AppDelegate.m */,
 				932E931F1C1669A300F13CAA /* ViewController.h */,
 				932E93201C1669A300F13CAA /* ViewController.m */,
+				932E934C1C1693B100F13CAA /* SUPTransitionController.h */,
+				932E934D1C1693B100F13CAA /* SUPTransitionController.m */,
 				932E93221C1669A300F13CAA /* Main.storyboard */,
 				932E93251C1669A300F13CAA /* Assets.xcassets */,
 				932E93271C1669A300F13CAA /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				932E93211C1669A300F13CAA /* ViewController.m in Sources */,
 				932E931E1C1669A300F13CAA /* AppDelegate.m in Sources */,
 				932E931B1C1669A300F13CAA /* main.m in Sources */,
+				932E934E1C1693B100F13CAA /* SUPTransitionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
